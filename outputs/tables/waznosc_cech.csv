@@ -1,0 +1,9 @@
+,wspolczynnik_logreg,waznosc_rf
+Pregnancies,0.3774,0.0577
+Glucose,1.1826,0.3736
+BloodPressure,-0.0441,0.0479
+SkinThickness,0.0283,0.0499
+Insulin,-0.0661,0.0894
+BMI,0.6887,0.1689
+DiabetesPedigreeFunction,0.2333,0.0872
+Age,0.1478,0.1255

@@ -1,0 +1,10 @@
+,typ,braki_NaN,liczba_zer,procent_zer,braki_po_zamianie
+Pregnancies,int64,0,111,14.5,0
+Glucose,int64,0,5,0.7,5
+BloodPressure,int64,0,35,4.6,35
+SkinThickness,int64,0,227,29.6,227
+Insulin,int64,0,374,48.7,374
+BMI,float64,0,11,1.4,11
+DiabetesPedigreeFunction,float64,0,0,0.0,0
+Age,int64,0,0,0.0,0
+Outcome,int64,0,500,65.1,0

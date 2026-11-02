@@ -1,0 +1,9 @@
+,korelacja
+Glucose,0.493
+BMI,0.312
+Age,0.238
+Pregnancies,0.222
+SkinThickness,0.215
+Insulin,0.204
+DiabetesPedigreeFunction,0.174
+BloodPressure,0.166
