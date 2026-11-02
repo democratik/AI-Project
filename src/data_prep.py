@@ -1,12 +1,11 @@
-"""Etap 1: wczytanie, kontrola jakości i czyszczenie danych."""
+"""Etap 1: wczytanie, kontrola jakości i czyszczenie danych"""
 
 import numpy as np
 import pandas as pd
 
 from config import CLEAN_DATA_PATH, DATA_PATH, FEATURES, TARGET, ZERO_AS_MISSING
 
-# Słownik kategorii BMI wg klasyfikacji WHO – osobna tabela,
-# którą dołączamy do danych pacjentów za pomocą merge().
+# słownik kategorii BMI wg klasyfikacji WHO – osobna tabela,
 BMI_CATEGORIES = pd.DataFrame(
     {
         "BMI_code": [0, 1, 2, 3],
@@ -84,7 +83,7 @@ def prepare_data(save: bool = True):
     """
     raw = load_data()
 
-    # Kontrola: duplikaty i poprawność typów
+    # duplikaty i poprawność typów
     raw = raw.drop_duplicates()
     raw[TARGET] = raw[TARGET].astype(int)
 

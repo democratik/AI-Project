@@ -24,13 +24,13 @@
     },
     "rf": {
       "model": "Las losowy",
-      "cv_roc_auc_mean": 0.8368,
-      "cv_roc_auc_std": 0.0209,
+      "cv_roc_auc_mean": 0.8369,
+      "cv_roc_auc_std": 0.0208,
       "test_accuracy": 0.7403,
       "test_precision": 0.6667,
       "test_recall": 0.5185,
       "test_f1": 0.5833,
-      "test_roc_auc": 0.8107
+      "test_roc_auc": 0.8106
     }
   },
   "analiza_progu_logreg": [

@@ -1,7 +1,7 @@
 ,wspolczynnik_logreg,waznosc_rf
-Pregnancies,0.3774,0.0577
+Pregnancies,0.3774,0.0576
 Glucose,1.1826,0.3736
-BloodPressure,-0.0441,0.0479
+BloodPressure,-0.0441,0.048
 SkinThickness,0.0283,0.0499
 Insulin,-0.0661,0.0894
 BMI,0.6887,0.1689

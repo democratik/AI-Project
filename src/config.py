@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-# Katalog główny projektu (folder nadrzędny względem src/)
+# katalog główny projektu 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
 DATA_PATH = ROOT_DIR / "data" / "diabetes.csv"
@@ -14,8 +14,7 @@ METRICS_PATH = OUTPUT_DIR / "metrics.json"
 
 TARGET = "Outcome"
 
-# Kolumny, w których wartość 0 jest fizjologicznie niemożliwa
-# (np. glukoza = 0 lub BMI = 0) – traktujemy ją jako brak danych.
+# kolumny w których wartość 0 jest fizjologicznie niemożliwa
 ZERO_AS_MISSING = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]
 
 FEATURES = [
@@ -29,7 +28,7 @@ FEATURES = [
     "Age",
 ]
 
-# Polskie etykiety cech używane na wykresach
+# polskie etykiety cech używane na wykresach
 FEATURE_LABELS = {
     "Pregnancies": "Liczba ciąż",
     "Glucose": "Glukoza [mg/dl]",
